@@ -11,4 +11,6 @@ function deepestChild() {
    child[i].innerHTML = querySelector
    
    
-   function 
+   function increaseRankBy(n) {
+     
+   }
