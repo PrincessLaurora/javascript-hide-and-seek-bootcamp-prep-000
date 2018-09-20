@@ -6,4 +6,4 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target');
 }
 function deepestChild() {
- const child =  document.getElementById ('boo').querySelector('')
+ const child =  document.getElementById ('grand-node').querySelectorAll('')
