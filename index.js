@@ -8,7 +8,7 @@ function nestedTarget() {
 function deepestChild() {
  var start = document.getElementById('grand-node');
  var child = start.children[0]
- 
+ while 
 }
    
    function increaseRankBy(n) {
