@@ -14,5 +14,8 @@ function deepestChild() {
    function increaseRankBy(n) {
     const ranghi = document.getElementById("app")
   .querySelectorAll("ul.ranked-list li");
-  
-   }
+  for (let i = 0; i < ranghi.length; i++) {
+   ranghi[i].innerHTML = parseInt
+    
+    
+  }
