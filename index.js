@@ -9,13 +9,13 @@ function deepestChild() {
  const child =  document.getElementById ('grand-node').querySelectorAll('div')
  for (let i = 0; i < child.length; i++) {
    child[i].innerHTML = querySelector
-   
+ }
+}
    
    function increaseRankBy(n) {
     const ranghi = document.getElementById("app")
   .querySelectorAll("ul.ranked-list li");
   for (let i = 0; i < ranghi.length; i++) {
-   ranghi[i].innerHTML = parseInt
-    
-    
-  }
+   ranghi[i].innerHTML = parseInt(ranghi[i].innerHTML) + n
+    }
+   }
