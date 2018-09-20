@@ -6,9 +6,12 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target');
 }
 function deepestChild() {
- var start = document.getElementById('grand-node');
- var child = start.children[0]
- while 
+ var element = document.getElementById('grand-node');
+ var child = element.children[0];
+ while (child) {
+   element = child;
+   child = element.children[0];
+ } return element;
 }
    
    function increaseRankBy(n) {
